@@ -1,0 +1,19 @@
+.section-container.education {
+  /* order: 1; */
+}
+
+.education-location {
+  margin: 1.2em 0 0 0;
+  font-weight: 600;
+}
+
+.education-course {
+  margin: 0 0 0 0;
+  font-weight: 400;
+}
+
+.education-grade {
+  margin: 0;
+  font-weight: 300;
+  font-style: italic;
+}

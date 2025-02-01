@@ -1,0 +1,36 @@
+.intro-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #343434; */
+  /* border-radius: 2rem; */
+  min-width: 500px;
+}
+
+.intro-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.contact-info {
+  /* background-color: aquamarine; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+/* .img-container {
+  margin: 1em;
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+} */
+
+.intro-name {
+  margin: 1em 0 0 0;
+}

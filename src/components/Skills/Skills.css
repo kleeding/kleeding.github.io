@@ -1,0 +1,28 @@
+.section-container.skills {
+  min-width: 500px;
+}
+
+.section-title.skills {
+  margin: 0.2em 0.2em 0.5em 0.2em;
+}
+
+.skills-container {
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.skill-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-name {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0.75em;
+  font-size: 0.8rem;
+  font-weight: 400;
+}

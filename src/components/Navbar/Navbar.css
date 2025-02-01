@@ -1,0 +1,23 @@
+nav {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 1280px; */
+  height: 80px;
+}
+
+.nav-title {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.nav-title:link,
+.nav-title:visited,
+.nav-title:hover,
+.nav-title:active {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+}
