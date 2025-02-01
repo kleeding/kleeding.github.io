@@ -1,10 +1,10 @@
 import Icon from '../Icons/Icon.jsx'
-import github from '../Icons/Github.jsx'
-import python from '../Icons/Python.jsx'
-import html from '../Icons/HTML.jsx'
-import css from '../Icons/CSS.jsx'
-import js from '../Icons/JS.jsx'
-import react from '../Icons/React.jsx'
+import {github} from '../Icons/Icon.jsx'
+import {python} from '../Icons/Icon.jsx'
+import {html} from '../Icons/Icon.jsx'
+import {css} from '../Icons/Icon.jsx'
+import {js} from '../Icons/Icon.jsx'
+import {react} from '../Icons/Icon.jsx'
 import './Skills.css'
 
 function Skill(props) {

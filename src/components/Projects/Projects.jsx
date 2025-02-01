@@ -1,5 +1,5 @@
 import Icon from '../Icons/Icon.jsx'
-import github from '../Icons/Github.jsx'
+import {github} from '../Icons/Icon.jsx'
 import './Projects.css'
 
 function Project() {
