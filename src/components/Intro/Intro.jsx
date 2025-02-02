@@ -7,10 +7,9 @@ function Intro() {
     return (
         <section className="intro-container">
             <span className='intro-content'>
-                {/* <div className='img-container'></div> */}
                 <h1 className='intro-name'>Kent Leeding</h1>
-                <h3>Software Developer</h3>
-                <h2>Welcome to my page 😄</h2>
+                <h3 className='intro-tagline'>Software Developer</h3>
+                <h2 className='intro-welcome'>Welcome to my page 😄</h2>
             </span>
             <span className='contact-info'>
                 <Icon link={"https://www.linkedin.com/in/kentleeding/"} svg={linkedin} />
