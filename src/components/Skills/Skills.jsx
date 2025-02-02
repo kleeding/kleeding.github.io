@@ -11,7 +11,6 @@ import './Skills.css'
 function Skill(props) {
     return (
         <span className='skill-entry'>
-            <h6 className='skill-name'>{props.name}</h6>
             <Icon svg={props.svg} />
         </span>
     )

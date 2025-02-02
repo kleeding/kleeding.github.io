@@ -17,12 +17,16 @@
 
 .skill-entry {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
 }
 
-.skill-name {
+.skill-icon:hover + #skill-name {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.skill-name {
+  color: #343434;
   margin: 0.75em;
   font-size: 0.8rem;
   font-weight: 400;

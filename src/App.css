@@ -30,8 +30,14 @@
   align-self: flex-start;
 }
 
+.section-icon {
+  font-size: 2rem;
+  margin: 0.2em 0 0 0;
+  align-self: flex-start;
+  z-index: 1;
+}
+
 .section-title {
-  width: 100%;
   font-size: 2rem;
   margin: 0.2em 0 0 0;
   align-self: flex-start;
