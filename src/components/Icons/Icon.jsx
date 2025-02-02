@@ -1,8 +1,14 @@
 import './Icon.css'
 
 export default function Icon(props) {
+    let stylesheet = ""
+    if (props.hasOwnProperty('stylename')) {
+        stylesheet = props.stylename
+    } else {
+        stylesheet = "skill-icon"
+    }
     return (
-        <a className={props.stylename} href={props.link} target='_blank'>
+        <a className={stylesheet} href={props.link} target='_blank'>
             {props.svg}
         </a>
     )
