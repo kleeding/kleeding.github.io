@@ -5,6 +5,7 @@ import {html} from '../Icons/Icon.jsx'
 import {css} from '../Icons/Icon.jsx'
 import {js} from '../Icons/Icon.jsx'
 import {react} from '../Icons/Icon.jsx'
+import {java} from '../Icons/Icon.jsx'
 import './Skills.css'
 
 function Skill(props) {
@@ -26,6 +27,7 @@ function Skills() {
                 <Skill name={"CSS"} svg={css} />
                 <Skill name={"JS"} svg={js} />
                 <Skill name={"React"} svg={react} />
+                <Skill name={"Java"} svg={java} />
                 {/* <Icon svg={github} />
                 <Icon svg={github} />
                 <Icon svg={github} />
