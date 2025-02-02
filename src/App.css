@@ -45,20 +45,8 @@
   fill: #343434;
 }
 
-@media (max-width: 768px) {
-  .section-container {
-    width: calc((80vw - 4em) / 2);
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 615px) {
   .section-container {
     width: 80vw;
   }
 }
-/* 
-@media (max-width: 600px) {
-  .section-title-container {
-    flex-direction: column;
-  }
-}  */
