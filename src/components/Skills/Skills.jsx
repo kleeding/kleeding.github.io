@@ -12,6 +12,7 @@ function Skill(props) {
     return (
         <span className='skill-entry'>
             <Icon svg={props.svg} />
+            <h6 className='skill-name' id="skill-name">{props.name}</h6>
         </span>
     )
 }
