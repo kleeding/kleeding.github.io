@@ -20,7 +20,10 @@ function Education() {
 
     return (
         <section className='section-container education'>
-            <h1 className='section-title'>👨‍🎓 Education</h1>
+            <span className='section-title-container'>
+                <h1 className='section-icon'>👨‍🎓&nbsp;</h1>
+                <h1 className='section-title'>Education</h1>
+            </span>
             {educationElement}
         </section>       
     )

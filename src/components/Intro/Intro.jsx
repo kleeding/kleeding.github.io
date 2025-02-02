@@ -9,11 +9,14 @@ function Intro() {
             <span className='intro-content'>
                 <h1 className='intro-name'>Kent Leeding</h1>
                 <h3 className='intro-tagline'>Software Developer</h3>
-                <h2 className='intro-welcome'>Welcome to my page 😄</h2>
+                <span className='intro-welcome-container'>
+                    <h2 className='intro-welcome'>Welcome to my page </h2>
+                    <h2 className='icon-on-top'>&nbsp;😄</h2>
+                </span>
             </span>
             <span className='contact-info'>
-                <Icon link={"https://www.linkedin.com/in/kentleeding/"} svg={linkedin} />
-                <Icon link={"mailto:kent@leeding.dev"} svg={email} />
+                <Icon stylename={"contact-icon-centered"} link={"https://www.linkedin.com/in/kentleeding/"} svg={linkedin} />
+                <Icon stylename={"contact-icon-centered"} link={"mailto:kent@leeding.dev"} svg={email} />
             </span>
         </section>
     )

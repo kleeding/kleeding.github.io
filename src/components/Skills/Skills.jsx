@@ -20,7 +20,10 @@ function Skill(props) {
 function Skills() {
     return (
         <section className='section-container skills'>
-            <h1 className='section-title skills'>👨‍💻 Programming Languages</h1>
+            <span className='section-title-container'>
+                <h1 className='section-icon'>👨‍💻&nbsp;</h1>
+                <h1 className='section-title'>Programming Languages</h1>
+            </span>
             <span className='skills-container'>
                 <Skill name={"Python"} svg={python} />
                 <Skill name={"HTML"} svg={html} />
@@ -28,13 +31,6 @@ function Skills() {
                 <Skill name={"JS"} svg={js} />
                 <Skill name={"React"} svg={react} />
                 <Skill name={"Java"} svg={java} />
-                {/* <Icon svg={github} />
-                <Icon svg={github} />
-                <Icon svg={github} />
-                <Icon svg={github} />
-                <Icon svg={github} />
-                <Icon svg={github} />
-                <Icon svg={github} /> */}
             </span>
         </section>
     )

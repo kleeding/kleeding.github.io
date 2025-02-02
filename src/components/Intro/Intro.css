@@ -15,7 +15,7 @@
 }
 
 .contact-info {
-  margin: auto auto 2em auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,11 +23,26 @@
 }
 
 .intro-name {
-  margin: 1em 0 0 0;
+  padding: 0;
+  margin: 0;
 }
 
 .intro-tagline {
   margin: 0 0 1em 0;
+  font-weight: 400;
+}
+
+.intro-welcome-container {
+  display: flex;
+}
+
+.intro-welcome {
+  font-size: 1.6rem;
+}
+
+.icon-on-top {
+  font-size: 1.6rem;
+  z-index: 2;
 }
 
 @media (max-width: 865px) {
@@ -43,10 +58,18 @@
   }
 
   .contact-info {
+    margin: auto;
     flex-direction: row;
   }
 
-  .intro-welcome {
-    font-size: 1.2rem;
+  .intro-name {
+    font-size: 11vw;
+  }
+  .intro-tagline {
+    font-size: 4vw;
+  }
+  .intro-welcome,
+  .icon-on-top {
+    font-size: 5.5vw;
   }
 }

@@ -32,30 +32,20 @@
   font-weight: 400;
 }
 
-/* @media (max-width: 768px) {
-  .section-container.skills {
-    min-width: 0px;
-    width: 80vw;
-  }
-} */
-
 @media (max-width: 865px) {
   .section-container.skills {
-    /* flex-direction: column; */
     min-width: calc(500px + 3.2rem);
   }
 }
 
 @media (max-width: 768px) {
   .section-container.skills {
-    /* flex-direction: column; */
     min-width: calc(500px + 3.2rem);
   }
 }
 
 @media (max-width: 615px) {
   .section-container.skills {
-    /* flex-direction: column; */
     min-width: 80vw;
   }
 }
