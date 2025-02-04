@@ -21,45 +21,45 @@ nav {
   color: rgba(255, 255, 255, 0.87);
 }
 
-.theme-icons {
-  display: flex;
-  flex-direction: column;
-  margin: auto 2em;
-  text-align: center;
-  width: 35px;
-  height: 35px;
-  z-index: 1;
-}
-
-.theme-toggle-container-sun {
-  cursor: pointer;
-  display: block;
-  margin: 5px 0 0 0;
-  width: 35px;
-  height: 35px;
-}
-
-.theme-toggle-container-sun.is-toggled {
-  display: none;
-}
-
-.theme-toggle-container-moon {
-  cursor: pointer;
-  display: none;
-}
-
-.theme-toggle-container-moon.is-toggled {
-  display: block;
-  margin: auto;
-  width: 20px;
-  height: 20px;
-}
-
-.theme-moon-icon {
-  fill: #242424;
-}
-
 @supports not (-webkit-touch-callout: none) {
+  .theme-icons {
+    display: flex;
+    flex-direction: column;
+    margin: auto 2em;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+  }
+
+  .theme-toggle-container-sun {
+    cursor: pointer;
+    display: block;
+    margin: 5px 0 0 0;
+    width: 35px;
+    height: 35px;
+  }
+
+  .theme-toggle-container-sun.is-toggled {
+    display: none;
+  }
+
+  .theme-toggle-container-moon {
+    cursor: pointer;
+    display: none;
+  }
+
+  .theme-toggle-container-moon.is-toggled {
+    display: block;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+  }
+
+  .theme-moon-icon {
+    fill: #242424;
+  }
+
   .theme-screen {
     background-color: rgb(255, 255, 255);
     position: fixed;
@@ -80,20 +80,7 @@ nav {
 }
 
 @supports (-webkit-touch-callout: none) {
-  .theme-screen {
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    mix-blend-mode: difference;
-    pointer-events: none;
-  }
-
-  .theme-screen.is-toggled {
+  .theme-icons {
     display: none;
   }
 }
