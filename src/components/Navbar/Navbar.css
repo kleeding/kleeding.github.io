@@ -21,7 +21,6 @@ nav {
   color: rgba(255, 255, 255, 0.87);
 }
 
-/* @supports not (-webkit-touch-callout: none) { */
 .theme-icons {
   display: flex;
   flex-direction: column;
@@ -60,37 +59,37 @@ nav {
   fill: #242424;
 }
 
-.theme-screen {
-  background-color: rgb(255, 255, 255);
-  position: fixed;
-  top: -1px;
-  right: -1px;
-  scale: 1;
-  width: 1px;
-  height: 1px;
-  -webkit-border-radius: 1px;
-  border-radius: 1px;
-  -webkit-transition: -webkit-transform 1s ease-in-out;
-  -webkit-transition: transform 1s ease-in-out;
-  /* -moz-transition: -moz-transform 1s ease-in-out;
-  -ms-transition: -ms-transform 1s ease-in-out;
-  -o-transition: -o-transform 1s ease-in-out; */
-  transition: transform 1s ease-in-out;
-  mix-blend-mode: difference;
-  pointer-events: none;
+@supports not (-webkit-touch-callout: none) {
+  .theme-screen {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: -1px;
+    right: -1px;
+    scale: 1;
+    width: 1px;
+    height: 1px;
+    border-radius: 1px;
+    transition: transform 1s ease-in-out;
+    mix-blend-mode: difference;
+    pointer-events: none;
+  }
+
+  .theme-screen.is-toggled {
+    transform: scale(var(--vwh-scale));
+  }
 }
 
-.theme-screen.is-toggled {
-  -webkit-transform: scale(var(--vwh-scale));
-  /* -moz-transform: scale(var(--vwh-scale));
-  -ms-transform: scale(var(--vwh-scale));
-  -o-transform: scale(var(--vwh-scale)); */
-  transform: scale(var(--vwh-scale));
-}
-/* } */
+@supports (-webkit-touch-callout: none) {
+  .theme-screen {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    /* transition: transform 1s ease-in-out; */
+    mix-blend-mode: difference;
+    pointer-events: none;
+  }
 
-/* @supports (-webkit-touch-callout: none) {
-  .theme-icons {
+  .theme-screen.is-toggled {
     display: none;
   }
-} */
+}
