@@ -85,3 +85,9 @@ nav {
     transform: scale(var(--vwh-scale));
   }
 }
+
+@supports (-webkit-touch-callout: none) {
+  .theme-icons {
+    display: none;
+  }
+}
