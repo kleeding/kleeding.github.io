@@ -82,5 +82,4 @@ nav {
   -ms-transform: scale(var(--vwh-scale));
   -o-transform: scale(var(--vwh-scale));
   transform: scale(var(--vwh-scale));
-  overflow: hidden;
 }
