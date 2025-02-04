@@ -70,8 +70,10 @@ nav {
   height: 1px;
   border-radius: 100%;
   -webkit-transition: -webkit-transform 1s ease-in-out;
-  -moz-transition: transform 1s ease-in-out;
-  -o-transition: transform 1s ease-in-out;
+  -webkit-transition: transform 1s ease-in-out;
+  /* -moz-transition: -moz-transform 1s ease-in-out;
+  -ms-transition: -ms-transform 1s ease-in-out;
+  -o-transition: -o-transform 1s ease-in-out; */
   transition: transform 1s ease-in-out;
   mix-blend-mode: difference;
   pointer-events: none;
@@ -79,9 +81,9 @@ nav {
 
 .theme-screen.is-toggled {
   -webkit-transform: scale(var(--vwh-scale));
-  -moz-transform: scale(var(--vwh-scale));
+  /* -moz-transform: scale(var(--vwh-scale));
   -ms-transform: scale(var(--vwh-scale));
-  -o-transform: scale(var(--vwh-scale));
+  -o-transform: scale(var(--vwh-scale)); */
   transform: scale(var(--vwh-scale));
 }
 /* } */
