@@ -82,9 +82,13 @@ nav {
 @supports (-webkit-touch-callout: none) {
   .theme-screen {
     background-color: rgb(255, 255, 255);
+    position: fixed;
     width: 100%;
     height: 100%;
-    /* transition: transform 1s ease-in-out; */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
     mix-blend-mode: difference;
     pointer-events: none;
   }
