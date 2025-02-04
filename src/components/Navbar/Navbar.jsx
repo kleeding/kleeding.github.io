@@ -2,10 +2,13 @@ import {useState} from 'react';
 import './Navbar.css'
 
 function Navbar() {
-    const [isToggled, setIsToggled] = useState(false)
+    const togged = JSON.parse(localStorage.getItem('isToggled'));
+
+    const [isToggled, setIsToggled] = useState(togged)
 
     const toggleTheme = () => {
         setIsToggled((toggled) => !toggled)
+        localStorage.setItem('isToggled', JSON.stringify(!isToggled));
     }
 
     return (
