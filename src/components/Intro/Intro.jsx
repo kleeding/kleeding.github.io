@@ -1,6 +1,6 @@
-import Icon from '../Icons/Icon.jsx'
-import {linkedin} from '../Icons/Icon.jsx'
-import {email} from '../Icons/Icon.jsx'
+import Icon from '../Icons/Icon'
+import {linkedin} from '../Icons/Icon'
+import {email} from '../Icons/Icon'
 import './Intro.css'
 
 function Intro() {
