@@ -5,7 +5,6 @@ import App from './App.jsx'
 
 var vscale = Math.sqrt(Math.pow(window.innerWidth, 2) + Math.pow(window.innerHeight, 2)) * 2;
 document.documentElement.style.setProperty('--vwh-scale', `${vscale}`);
-console.log(vscale)
 
 window.addEventListener("resize", function(event) {
   vscale = Math.sqrt(Math.pow(window.innerWidth, 2) + Math.pow(window.innerHeight, 2)) * 2
