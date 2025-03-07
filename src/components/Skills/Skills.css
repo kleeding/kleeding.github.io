@@ -27,7 +27,7 @@
   align-items: center;
 }
 
-.skill-icon:hover + #skill-name {
+.skill-icon + #skill-name {
   color: rgba(255, 255, 255, 0.5);
 }
 
