@@ -1,9 +1,29 @@
 .icon-centered {
   margin: auto;
+  transition: scale 1s ease;
 }
 
 .contact-icon-centered {
   margin: auto 0 0 0;
+  transition: scale 1s ease;
+}
+
+.icon-centered:hover,
+.contact-icon-centered:hover {
+  animation: shake 0.25s infinite;
+  scale: 1.3;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
 }
 
 .icon-skills {
