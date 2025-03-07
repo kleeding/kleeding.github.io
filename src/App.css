@@ -21,6 +21,11 @@
   background-color: #343434;
   border-radius: 2rem;
   width: 250px;
+  transition: all 1s ease;
+}
+
+.section-container:hover {
+  box-shadow: 5px 5px 5px rgba(94, 94, 94, 0.87);
 }
 
 .section-title-container {
