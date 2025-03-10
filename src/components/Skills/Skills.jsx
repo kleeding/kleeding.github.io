@@ -14,7 +14,7 @@ import './Skills.css'
 
 function Skill(props) {
     return (
-        <span className='skill-entry'>
+        <span className={'skill-entry ' + props.cn}>
             <Icon svg={props.svg} />
             <h6 className='skill-name' id="skill-name">{props.name}</h6>
         </span>
@@ -29,16 +29,16 @@ function Skills() {
                 <h1 className='section-title skills'>Languages + Frameworks + Tools</h1>
             </span>
             <span className='skills-container'>
-                <Skill name={"Python"} svg={python} />
-                <Skill name={"Java"} svg={java} />
-                <Skill name={"HTML"} svg={html} />
-                <Skill name={"CSS"} svg={css} />
-                <Skill name={"JS"} svg={js} />
-                <Skill name={"React"} svg={react} />
-                <Skill name={"FastAPI"} svg={fastapi} />
-                <Skill name={"SQLite"} svg={sqlite} />
-                <Skill name={"Postgres"} svg={postgres} />
-                <Skill name={"Git"} svg={git} />
+                <Skill cn={'python-skill'} name={"Python"} svg={python} />
+                <Skill cn={'java-skill'} name={"Java"} svg={java} />
+                <Skill cn={'html-skill'} name={"HTML"} svg={html} />
+                <Skill cn={'css-skill'} name={"CSS"} svg={css} />
+                <Skill cn={'js-skill'} name={"JS"} svg={js} />
+                <Skill cn={'react-skill'} name={"React"} svg={react} />
+                <Skill cn={'fastapi-skill'} name={"FastAPI"} svg={fastapi} />
+                <Skill cn={'sqlite-skill'} name={"SQLite"} svg={sqlite} />
+                <Skill cn={'postgres-skill'} name={"Postgres"} svg={postgres} />
+                <Skill cn={'git-skill'} name={"Git"} svg={git} />
             </span>
         </section>
     )

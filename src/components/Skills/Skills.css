@@ -9,35 +9,120 @@
 }
 
 .skills-container {
-  /* margin: auto; */
+  margin: 0.5em 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1em;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .skill-entry {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
+  width: 50px;
   transition: scale 0.4s ease-in-out;
+  z-index: 1;
 }
 
 .skill-entry:hover {
-  z-index: 0;
+  z-index: 10;
   scale: 1.1;
+  /* transition: 0s; */
 }
 
 .skill-icon + #skill-name {
-  color: rgba(255, 255, 255, 0.5);
+  color: #888888;
+}
+
+.skill-entry:hover #skill-name {
+  color: #888888;
 }
 
 .skill-name {
-  color: #343434;
+  /* color: #343434; */
   margin: 0.75em;
   font-size: 0.8rem;
   font-weight: 400;
+}
+
+.python-skill:hover #python-blue {
+  fill: #4584b6;
+}
+
+.python-skill:hover #python-yellow {
+  fill: #ffde57;
+}
+
+.java-skill:hover #java-blue {
+  fill: #5382a1;
+}
+
+.java-skill:hover #java-orange {
+  fill: #f89820;
+}
+
+.html-skill:hover #html-orange {
+  fill: #e34c26;
+}
+
+.html-skill:hover #html-white {
+  fill: #cbcbcb;
+}
+
+.css-skill:hover #css-blue {
+  fill: #264de4;
+}
+
+.css-skill:hover #css-white {
+  fill: #cbcbcb;
+}
+
+.js-skill:hover #js-yellow {
+  fill: #f0db4f;
+}
+
+.js-skill:hover #js-black {
+  fill: #343434;
+}
+
+.react-skill:hover #react-blue {
+  fill: #1b7ea2;
+}
+
+.fastapi-skill:hover #fastapi-green {
+  fill: #1f978b;
+}
+
+.sqlite-skill:hover #sqlite-blue {
+  fill: #063b56;
+}
+
+.git-skill:hover #git-orange {
+  fill: #f04f2c;
+}
+
+#postgres-black {
+  visibility: hidden;
+}
+
+#postgres-blue {
+  visibility: hidden;
+}
+
+.postgres-skill:hover #postgres-blue {
+  visibility: visible;
+  fill: #336791;
+}
+
+.postgres-skill:hover #postgres-black {
+  visibility: visible;
+  fill: #000;
+}
+
+.postgres-skill:hover #postgres-white {
+  fill: #fff;
 }
 
 @media (max-width: 865px) {
