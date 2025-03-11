@@ -24,49 +24,50 @@ nav {
 @supports not (-webkit-touch-callout: none) {
   .theme-icons {
     position: relative;
-    /* background-color: aqua; */
     margin: auto 2em;
-    width: 35px;
+    width: 36px;
     height: 100%;
-    z-index: 3;
     overflow: hidden;
   }
 
   .theme-toggle-container-sun {
-    cursor: pointer;
     position: absolute;
-    top: 25px;
-    width: 35px;
-    height: 35px;
+    top: 100%;
+    width: 36px;
+    height: 36px;
+    z-index: 3;
     transition: top 0.5s ease-in-out;
   }
 
   .theme-toggle-container-sun.is-toggled {
+    cursor: pointer;
     position: absolute;
-    top: 100%;
+    top: 25px;
+    transition: top 0.5s ease-in-out;
+  }
+
+  .theme-toggle-container-moon.is-toggled {
+    position: absolute;
+    top: -100%;
+    left: 8px;
+    width: 20px;
+    height: 20px;
     transition: top 0.5s ease-in-out;
   }
 
   .theme-toggle-container-moon {
     cursor: pointer;
     position: absolute;
-    top: -100%;
-    left: 7.5px;
-    width: 20px;
-    height: 20px;
-    transition: top 0.5s ease-in-out;
-  }
-
-  .theme-toggle-container-moon.is-toggled {
-    position: absolute;
     top: 30px;
+    left: 8px;
+    right: 2px;
     width: 20px;
     height: 20px;
     transition: top 0.5s ease-in-out;
   }
 
   .theme-moon-icon {
-    fill: #242424;
+    fill: #e3e3e3;
   }
 
   .theme-screen {
