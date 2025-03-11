@@ -37,6 +37,7 @@ nav {
     height: 36px;
     z-index: 3;
     transition: top 0.5s ease-in-out;
+    outline: none;
   }
 
   .theme-toggle-container-sun.is-toggled {
@@ -64,6 +65,7 @@ nav {
     width: 20px;
     height: 20px;
     transition: top 0.5s ease-in-out;
+    outline: none;
   }
 
   .theme-moon-icon {
